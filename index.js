@@ -11,7 +11,7 @@ app.use(express.static('public'));
 
 // Initialize Google Cloud client
 const client = new TextToSpeechClient({
-  keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS,
+  credentials: JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS),
   projectId: process.env.GOOGLE_CLOUD_PROJECT,
 });
 
