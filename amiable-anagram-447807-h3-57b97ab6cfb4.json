@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "amiable-anagram-447807-h3",
+  "private_key_id": "57b97ab6cfb4344fa429851c8b8046fb49be3ddd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCbE/a+iGejp3Kq\nHlWz+SesKzcwKeoJosVuke67e1IeydIT2ahvdl5xrSKMgJBAvJfUwc9W8+BXOlM2\nvhBYSBaGHPYziism2ZlHfY0vCZeB1iM8QFfRlthDB/cDU170IQMbBUwEAq13ty/P\nD9d8hJi9wK9LeG218t/xIZsbGDhff4qrmHnl3eiG56XropN4drpxWKfOv/WXYjRl\nRDpwLtPoVpwZxBcom9p6XNgDQQoJ+iXl9ZYl2Nq7cbkwuHWsRzDPkDh3XLjAv28z\ngsA1U2+ETH50VkdR4CYHDx3F14wf9oJH6nIeOYBJu9Lnqq5qoMqrG0wbfxzo0hHP\nlrU8VRFZAgMBAAECggEAEd4f/N38ivedF4q9NypK7uRfzHXX2FpfwxifWAyibpe0\nU8MtTAJoaVKYe3XIqRzRpZrbB9q7i3FV6yXE/lb3+WXW3CNcS3Kg3YLSxIunYDdL\nAgMr2yM1Mav2QvTVKO2wzOk0U/X3BKcfpAzgOCGS87ICwIBUq7UbJk5H77w/qoj6\ncxEPSL9klAnI3T2lx/xwLz4x9MNTUfKI3izGpEBjr7rSIl4cpCO6Hh9JPkG5BdHP\nUqRNP0HX+EuCxDM+eqob/J7nLQjZ++yiyXpgplijDRCizZmy0v57B9XoIocz04wX\nMOAlL6JxMUFBb6IInMG9WIjoy0bdywYYCs8xOZlhgQKBgQDTi386JF2mWpUswOWf\nmvXZP9qlb4ylJmsZiIiPUttDLQiaaahpBk2JTvC5DIkLesuDwH6m889CWABCXqPf\nUC3m0NhLPfCDofugX9A3pHartVSMFTx0OiEs9U/UDXJFFi4i8ETrBAENYmDepAUi\noNnFqiZquWBQMnbzSPFxfklBCQKBgQC7qrW7gfG4V/oGM6MeMDgESyTN5EsTx6jd\nEToHxRw89C0ozivrWpsh0AG4unmAhjQe7V5Bw4LkSseTPbACNSiOn5dJAFRW3G4T\n2WMyU5cddSMB/h8zYxoAR6ef9EpYvnQZVZEvGSXxm9atCcrmC2a7bOT4BidOkFIh\n/MFEZMJx0QKBgQDLOTTFN1BcUqMCdmFhve02grhau9oCgfDbe6WtAm0vkKC2LpCi\nLHLqWNK7AwbY52OBs7g4TPqsAnxlRiPpkU43ciSHy/41hrSDsegGvFFgzXdmh7Qm\n9/0NArFoxm4jXpZ97BJZL+SO5hanbCyewqXS1Y3Ic0PKZ2CMgWOpoydeeQKBgAJD\n2jOsKtW1wh/HCcX4gQSUP5p4ketoMoKQjanAWEnoDI98hY0up8atsweewI6rj/97\nj/KtQGwu9t+xE+nC6H1oMbRA28O8n1t/+TGHTsCdRFHm1kuRe6PbOYu1sBwIGHCh\n1sHBxPJ4lgu6nYdPResnMlBICrtpBITCfzarHKmxAoGBAMp//d1ibbc+tsD5VqF9\nrLG70R4QMsCMhxUXVo7X+gU6ClKQDE3NSA/mvwOHPz0kDvzJraHvtPvIBlG0ivjB\ndI6ba3DbW3pn9hlBvjqGlwRDSBHqPCqphV4/chR/JSl54rNKdFBFkLMcwOOJIaX2\nDkHInjwTpLxyC27Izebx2S60\n-----END PRIVATE KEY-----\n",
+  "client_email": "text-to-speech-test-service-ac@amiable-anagram-447807-h3.iam.gserviceaccount.com",
+  "client_id": "106688659869851091829",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/text-to-speech-test-service-ac%40amiable-anagram-447807-h3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
