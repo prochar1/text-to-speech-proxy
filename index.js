@@ -6,7 +6,7 @@ const NodeCache = require('node-cache');
 const app = express();
 const port = process.env.PORT || 3001;
 
-app.get('/', (req, res) => res.send('Hello'));
+console.log(123);
 
 // Serve static files from public directory
 app.use(express.static('public'));
