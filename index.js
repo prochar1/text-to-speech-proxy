@@ -6,6 +6,19 @@ const NodeCache = require('node-cache');
 const app = express();
 const port = process.env.PORT || 3001;
 
+// Add CORS middleware
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  next();
+});
+
+// Handle OPTIONS requests
+app.options('*', (req, res) => {
+  res.status(200).end();
+});
+
 // Initialize Google Cloud client
 const client = new TextToSpeechClient({
   credentials: JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS),
