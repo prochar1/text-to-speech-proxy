@@ -1,6 +1,5 @@
 require('dotenv').config();
 const express = require('express');
-const path = require('path'); // přidáme path modul
 const { TextToSpeechClient } = require('@google-cloud/text-to-speech');
 const NodeCache = require('node-cache');
 
@@ -18,11 +17,6 @@ const cache = new NodeCache();
 
 // Add JSON parsing middleware
 app.use(express.json());
-
-// Přidáme novou cestu pro zobrazení HTML
-app.get('/test', (req, res) => {
-  res.sendFile(path.join(__dirname, 'test', 'index.html'));
-});
 
 app.post('/text-to-speech', async (req, res) => {
   const { text, voice, speed } = req.body;
