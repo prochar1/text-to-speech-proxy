@@ -43,7 +43,7 @@ app.post('/text-to-speech', async (req, res) => {
   try {
     const request = {
       input: { text },
-      voice: { languageCode: 'en-US', name: voice },
+      voice: { languageCode: 'cs-CZ', name: voice },
       audioConfig: { audioEncoding: 'MP3', speakingRate: speed },
     };
 
