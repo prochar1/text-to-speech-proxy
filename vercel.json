@@ -8,6 +8,14 @@
   ],
   "routes": [
     {
+      "src": "/test",
+      "dest": "/test"
+    },
+    {
+      "src": "/text-to-speech",
+      "dest": "/text-to-speech"
+    },
+    {
       "src": "/(.*)",
       "dest": "/"
     }
