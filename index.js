@@ -6,11 +6,6 @@ const NodeCache = require('node-cache');
 const app = express();
 const port = process.env.PORT || 3001;
 
-console.log(123);
-
-// Serve static files from public directory
-app.use(express.static('test'));
-
 // Initialize Google Cloud client
 const client = new TextToSpeechClient({
   credentials: JSON.parse(process.env.GOOGLE_APPLICATION_CREDENTIALS),
